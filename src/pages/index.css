@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Parisienne';
+    src: url('../assets/Parisienne-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 177px
+}
+
+body {
+    margin: 0;
+    background-color: #F5EFEA;
+}

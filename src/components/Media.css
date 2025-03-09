@@ -1,0 +1,30 @@
+.media {
+    background-color: rgba(0, 0, 0, 0.055);
+    padding: 100px 0px 100px 0px;
+}
+
+.media-wrapper {
+    max-width: 1500px;
+    margin: 0px auto 0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.media-title {
+    font-family: Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 60px;
+    margin: 0;
+    margin-bottom: 50px;
+}
+
+.media-icons {
+    display: flex;
+    gap: 50px;
+}
+
+.media-icon {
+
+}

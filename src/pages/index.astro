@@ -1,0 +1,23 @@
+--- 
+import BaseLayout from '../layouts/BaseLayout.astro'; // Import the layout
+import Header from "../components/Header.jsx";
+import Slideshow from "../components/Slideshow.jsx";
+import Chief from "../components/Chief.jsx";
+import Pastries from "../components/Pastries.jsx";
+import Aboutus from "../components/Aboutus.jsx";
+import Where from "../components/Where.jsx";
+import Contact from "../components/Contact.jsx";
+import Media from "../components/Media.jsx";
+import './index.css';
+---
+
+<BaseLayout>
+  <Header client:load />
+  <Slideshow client:load />
+  <Chief client:load />
+  <Pastries client:load />
+  <Aboutus client:load />
+  <Where client:load />
+  <Contact client:load />
+  <Media client:load />
+</BaseLayout>

@@ -1,0 +1,45 @@
+.chief {
+    display: flex;
+    margin: 100px auto 100px auto;
+    max-width: 1500px;
+}
+
+.chief-content {
+    flex: 1;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.chief-content-title {
+    font-family: Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+    margin: 0;
+}
+
+.chief-content-text {
+    font-family: Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    margin: 20px 0px 0px 0px;
+    margin-top: 50px;
+}
+
+.chief-content-image {
+    width: 100%;
+    height: auto;
+    margin-top: auto;
+}
+
+.chief-imagew {
+    flex: 1;
+    margin-left: 10px;
+}
+
+.chief-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}

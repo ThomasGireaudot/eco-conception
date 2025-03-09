@@ -1,0 +1,29 @@
+.aboutus {
+    margin: 100px auto 100px auto;
+    max-width: 1500px;
+}
+
+.aboutus-title {
+    font-family: Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+    margin: 0;
+}
+
+.aboutus-text {
+    font-family: Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    margin: 100px 0px 100px 0px;
+    margin-top: 50px;
+}
+
+.aboutus-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutus-list-image {
+    height: 80px;
+}

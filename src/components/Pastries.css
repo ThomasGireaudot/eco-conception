@@ -1,0 +1,43 @@
+.pastries {
+    background-color: rgba(0, 0, 0, 0.055);
+    padding: 100px 0px 100px 0px;
+    height: fit-content;
+    width: 100%;
+}
+
+.pastries-wrapper {
+    margin: 0px auto 0px auto;
+    max-width: 1500px;
+    display: flex;
+}
+
+.pastries-imagew {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.pastries-image {
+    width: 100%;
+    height: auto;
+}
+
+.pastries-content {
+    width: 600px;
+    margin-left: 10px;
+}
+
+.pastries-content-title {
+    font-family: Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.pastries-content-text {
+    font-family: Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    margin: 50px 0px 0px 0px;
+}
