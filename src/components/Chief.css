@@ -43,3 +43,44 @@
     height: auto;
     display: block;
 }
+
+@media screen and (max-width: 768px) {
+    .chief {
+        display: flex;
+        margin: 0px auto 0px auto;
+        padding: 200px 10px 0px 10px;
+        max-width: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .chief-content {
+        margin-right: 0px;
+        justify-content: center;
+    }
+    
+    .chief-content-title {
+        text-align: center;
+    }
+    
+    .chief-content-text {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    
+    .chief-content-image {
+        margin-bottom: 20px;
+    }
+    
+    .chief-imagew {
+        margin-left: 0px;
+        margin-bottom: 50px;
+    }
+    
+    .chief-image {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+}

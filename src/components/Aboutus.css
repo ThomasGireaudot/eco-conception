@@ -27,3 +27,29 @@
 .aboutus-list-image {
     height: 80px;
 }
+
+@media screen and (max-width: 768px) {
+    .aboutus {
+        margin: 100px auto 100px auto;
+        padding: 0px 10px 0px 10px;
+    }
+    
+    .aboutus-title {
+        text-align: center;
+    }
+    
+    .aboutus-text {
+        text-align: center;
+    }
+    
+    .aboutus-list {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    
+    .aboutus-list-image {
+        height: 80px;
+        margin: 20px 0px 20px 0px;
+    }
+}

@@ -95,3 +95,45 @@
     font-size: 20px;
     line-height: 40px;
 }
+
+
+@media screen and (max-width: 768px) {
+    .contact {
+        margin: 100px auto 100px auto;
+        max-width: 1500px;
+    }
+    
+    .contact-title {
+        text-align: center;
+    }
+    
+    .contact-container {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 10px 0px 10px;
+    }
+    
+    .contact-left, .contact-right {
+        flex: 1;
+    }
+    
+    .contact-right {
+        padding-left: 0px;
+    }
+    
+    .contact-left-text {
+        text-align: center;
+    }
+    
+    .contact-right h2 {
+        text-align: center;
+    }
+    
+    .contact-right h3 {
+        text-align: center;
+    }
+    
+    .contact-right p {
+        text-align: center;
+    }    
+}
